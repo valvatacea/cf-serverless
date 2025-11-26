@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "license": "ISC",
   "type": "module",
-  "packageManager": "npm@10",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
