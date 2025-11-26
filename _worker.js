@@ -41,7 +41,7 @@ const RELAY_SERVER_UDP = {
   port: 7300,
 };
 const PRX_HEALTH_CHECK_API = "https://cf-serverless.valvatacea.workers.dev/api/v1/check";
-const CONVERTER_URL = "https://api.foolvpn.me/convert";
+const CONVERTER_URL = "https://cf-serverless.valvatacea.workers.dev/convert";
 const WS_READY_STATE_OPEN = 1;
 const WS_READY_STATE_CLOSING = 2;
 const CORS_HEADER_OPTIONS = {
