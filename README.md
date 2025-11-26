@@ -58,8 +58,8 @@ Klik tombol di bawah
 1. Buat akun cloudflare
 2. Buat worker
 3. Copy kode dari `_worker.js` ke editor cloudflare worker
-4. (Optional) Masukkan link daftar proxy kalian ke dalam environemnt variable `PROXY_BANK_URL`
-5. (Optional) Masukkan link target reverse proxy ke environment variable `REVERSE_PROXY_TARGET`
+4. (Optional) Masukkan link daftar proxy kalian ke dalam environemnt variable `PRX_BANK_URL`
+5. (Optional) Masukkan link target reverse proxy ke environment variable `REVERSE_PRX_TARGET`
 6. Deploy
 7. Buka `https://DOMAIN_WORKER_KALIAN/sub`
 
