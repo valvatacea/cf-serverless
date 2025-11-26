@@ -1,7 +1,7 @@
 import { connect } from "cloudflare:sockets";
 
 // Variables
-let serviceName = "cf-cl";
+let serviceName = "cf-serverless";
 let APP_DOMAIN = "valvatacea.workers.dev";
 
 let prxIP = "";
