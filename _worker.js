@@ -153,13 +153,13 @@ export default {
         const target = url.searchParams.get("target").split(":");
         const result = await checkPrxHealth(target[0], target[1] || "443");
         return result;
-        return new Response(JSON.stringify(result), {
-          status: 200,
-          headers: {
-            ...CORS_HEADER_OPTIONS,
-            "Content-Type": "application/json",
-          },
-        });
+        // return new Response(JSON.stringify(result), {
+        //   status: 200,
+        //   headers: {
+        //     ...CORS_HEADER_OPTIONS,
+        //     "Content-Type": "application/json",
+        //   },
+        // });
       } else if (url.pathname.startsWith("/api/v1")) {
         const apiPath = url.pathname.replace("/api/v1", "");
 
