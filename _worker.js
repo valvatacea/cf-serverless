@@ -152,7 +152,7 @@ export default {
       } else if (url.pathname.startsWith("/check")) {
         const target = url.searchParams.get("target").split(":");
         const result = await checkPrxHealth(target[0], target[1] || "443");
-
+        return result;
         return new Response(JSON.stringify(result), {
           status: 200,
           headers: {
